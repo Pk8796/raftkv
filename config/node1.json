@@ -1,0 +1,15 @@
+{
+  "id": "node1",
+  "host": "127.0.0.1",
+  "port": 7001,
+  "data_dir": "./data/node1",
+  "start_as_leader": true,
+  "heartbeat_interval": 1.0,
+  "election_timeout_low": 2.5,
+  "election_timeout_high": 4.0,
+  "sync_interval": 2.0,
+  "peers": [
+    {"id": "node2", "host": "127.0.0.1", "port": 7002},
+    {"id": "node3", "host": "127.0.0.1", "port": 7003}
+  ]
+}
